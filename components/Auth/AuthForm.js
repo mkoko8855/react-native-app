@@ -5,7 +5,7 @@ import React, { useState } from "react";
 import { View } from "react-native";
 import Input from "./Input";
 import Button from "../ui/Button";
-
+//상태관리
 const AuthForm = ({ isLogin, onSubmit, credentialsInvalid }) => {
   const [enteredEmail, setEnteredEmail] = useState("");
   const [enteredName, setEnteredName] = useState("");
