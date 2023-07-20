@@ -30,7 +30,7 @@ const AuthContent = (isLogin, onAuthenticate) => {
     console.log("submitHandler email: ", email);
 
     email = email.trim(); //공백이있을까봐 양쪽공백제거
-    password = password.trim(); //마찬가지
+    password = password.trim(); //이것도.
     const nameRegex = /^[가-힣]{2,4}$/; //한글만허용한다.
 
     const emailIsValid = email.includes("@");
