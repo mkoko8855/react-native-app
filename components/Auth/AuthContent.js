@@ -25,7 +25,7 @@ const AuthContent = (isLogin, onAuthenticate) => {
   }
 
   function submitHandler(credentials) {
-    //유효성검증하는 부분 -> 자식컴포넌트가 사용자가 입력한 값을 객체형태로 보낼테니 얘가 받아서 유효성검증함.
+    //유효성검증하는 부분 -> 자식컴포넌트가 사용자가 입력한 값을 객체형태로 보낼테니 얘가 받아서 유효성검증.
     let { email, name, password, confirmPassword } = credentials; //객체디스트럭쳐(분해) -> 하나씩검증해봐야하니까.
     console.log("submitHandler email: ", email);
 
