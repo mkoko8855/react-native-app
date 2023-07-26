@@ -9,7 +9,7 @@ import { useNavigation } from "@react-navigation/native";
 const AuthContent = (isLogin, onAuthenticate) => {
   const navigation = useNavigation();
 
-  const [credentialsInvalid, setCredentialsInvalid] = useState({ (과)
+  const [credentialsInvalid, setCredentialsInvalid] = useState({ 
     email: false,
     name: false,
     password: false,
