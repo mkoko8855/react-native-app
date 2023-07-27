@@ -1,7 +1,7 @@
 //expo에서 제공하는 icon사용한다.
 //0718
 import { Pressable, StyleSheet } from "react-native";
-import { Ionicons } from "@expo/vector-icons";
+import { Ionicons } from "@expo/vector-icons"; //다운
 
 function IconButton({ icon, color, size, onPress }) {
   return (
